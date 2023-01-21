@@ -15,7 +15,7 @@ export default function Footer() {
                     <div className="footer">
                         <div className="company-info">
                             <div className="footer-logo">
-                                <img src={logo}/>
+                                <img src={logo} alt={logo}/>
                             </div>
                             <div className="company-desc-text">
                                 <p className="company-desc sub-desc">
@@ -25,23 +25,23 @@ export default function Footer() {
                             </div>
                             <div className="social-media-links">
                                 <a href="#" className="social-media-icon">
-                                    <img className="social-media-icon" src={fb}/>
+                                    <img className="social-media-icon" src={fb} alt="facebook"/>
                                 </a>
 
                                 <a href="#" className="social-media-icon">
-                                    <img className="social-media-icon" src={vk}/>
+                                    <img className="social-media-icon" src={vk} alt="vkontakte"/>
                                 </a>
                                 <a href="#" className="social-media-icon">
-                                    <img className="social-media-icon" src={twitter}/>
+                                    <img className="social-media-icon" src={twitter} alt="twitter"/>
                                 </a>
                                 <a href="#" className="social-media-icon">
-                                    <img className="social-media-icon" src={instagram}/>
+                                    <img className="social-media-icon" src={instagram} alt="instagram"/>
                                 </a>
                                 <a href="#" className="social-media-icon">
-                                    <img className="social-media-icon" src={telegram}/>
+                                    <img className="social-media-icon" src={telegram} alt="telegram"/>
                                 </a>
                                 <a href="#" className="social-media-icon">
-                                    <img className="social-media-icon" src={google} />
+                                    <img className="social-media-icon" src={google}  alt="google"/>
                                 </a>
                             </div>
                             <p className="copyright">©2023VPN</p>
